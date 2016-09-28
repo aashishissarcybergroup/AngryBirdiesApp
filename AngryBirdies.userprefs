@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{A1CA375C-F962-45C4-BBB7-E1C763B0162B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AngryBirdies/Controllers/SignUp.cs">
+    <Files>
+      <File FileName="AngryBirdies/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="AngryBirdies/Controllers/Login.cs" Line="9" Column="32" />
+      <File FileName="AngryBirdies/Controllers/SignUp.cs" Line="120" Column="15" />
+      <File FileName="AngryBirdies/Models/RegisterUser.cs" Line="15" Column="2" />
+      <File FileName="AngryBirdies/CreateAccount.cs" Line="11" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.AngryBirdies PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.94636632-1742-4B20-929C-9540BEA43F33" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
