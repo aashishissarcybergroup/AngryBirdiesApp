@@ -12,5 +12,5 @@ namespace AngryBirdies
 		public int Handicap { get; set; }
 
 	
-}
+}	
 }

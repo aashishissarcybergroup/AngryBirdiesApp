@@ -1,12 +1,12 @@
-using Foundation;
 using System;
 using UIKit;
 using System.Net.Http;
 using System.Net.Http.Headers;
+using Newtonsoft.Json;
 
 namespace AngryBirdies
 {
-    public partial class SignUp : UIViewController
+	public partial class SignUp : UIViewController
     {
 		LoadingOverlay overlayView;
         public SignUp (IntPtr handle) : base (handle)
@@ -71,27 +71,45 @@ namespace AngryBirdies
 		public async  void registration() 		{ 			RegisterUser userItemModel = new RegisterUser()
 			{ 				Email = txtEmail.Text, 				Password = txtPasswords.Text, 				Fname = txtFname.Text, 				Lname = txtLname.Text, 				Gender = SegmentGender.SelectedSegment== 0 ? "Male" : "Female",
 				Handicap = Convert.ToInt32(txtHandicaped.Text) 			};
+
 			//Code for api 
 			 using (var client = new HttpClient())
 			{
-				client.BaseAddress = new Uri("http://localhost:9000/");
+				client.BaseAddress = new Uri("http://172.25.120.182/");
 				client.DefaultRequestHeaders.Accept.Clear();
 				client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-
+				//client.
 				// New code:
-				HttpResponseMessage response = await client.GetAsync("api/products/1");
+			//HttpResponseMessage response = await client.GetAsync("api/Login/chkApi");
+			//	string res = response.Content.ReadAsStringAsync().Result;
+			//	Console.WriteLine(res);
+				var json = JsonConvert.SerializeObject(userItemModel);
+				  var content = new StringContent(json, System.Text.Encoding.UTF8, "application/json");
+
+				HttpResponseMessage response = await client.PostAsync("api/Login/register", content);
+				string res = response.Content.ReadAsStringAsync().Result;
+					Console.WriteLine(res);
+				overlayView.Hide();
 				if (response.IsSuccessStatusCode)
 				{
-					Product product = await response.Content.ReadAsAsync > Product > ();
-					Console.WriteLine("{0}\t${1}\t{2}", product.Name, product.Price, product.Category);
+					NavigationController.PopViewController(true);
 				}
+				else
+				{ 
+					PresentViewController(Login.alertViewWithMessage(res), animated: true, completionHandler: null);
+
+				}
+				//if (response.IsSuccessStatusCode)
+				//{
+				//	Product product = await response.Content.ReadAsAsync > Product > ();
+				//	Console.WriteLine("{0}\t${1}\t{2}", product.Name, product.Price, product.Category);
+			}
 			}
 
-
+		  
  			//var userObject = await new CreateAccount().Registration(userItemModel); 			//overlayView.Hide(); 			//if (userObject.Status == true)
 			//{ 			//	var moveToWelcomeScreen = Storyboard.InstantiateViewController(Constants.ViewControllerIndentifier.WELCOME_SCREEN) as WelcomeScreen; 			//	moveToWelcomeScreen.userData = userObject; 			//	NavigationController.PushViewController(moveToWelcomeScreen, true); 			//}
 			//else { 			//	PresentViewController(Login.alertViewWithMessage(userObject.Message), animated: true, completionHandler: null); 			//} 		} 
 
 
 	}
-}

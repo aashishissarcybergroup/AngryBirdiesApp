@@ -1,16 +1,12 @@
-/Users/aashish.issar/Desktop/Start/AngryBirdies/AngryBirdies/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
-/Users/aashish.issar/Desktop/Start/AngryBirdies/AngryBirdies/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
-/Users/aashish.issar/Desktop/Start/AngryBirdies/AngryBirdies/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
-/Users/aashish.issar/Desktop/Start/AngryBirdies/AngryBirdies/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
-/Users/aashish.issar/Desktop/Start/AngryBirdies/AngryBirdies/obj/iPhoneSimulator/Debug/optimized/
-/Users/aashish.issar/Desktop/Start/AngryBirdies/AngryBirdies/bin/iPhoneSimulator/Debug/AngryBirdies.exe.mdb
-/Users/aashish.issar/Desktop/Start/AngryBirdies/AngryBirdies/bin/iPhoneSimulator/Debug/AngryBirdies.exe
-/Users/aashish.issar/Desktop/Start/AngryBirdies/AngryBirdies/obj/iPhoneSimulator/Debug/AngryBirdies.exe
-/Users/aashish.issar/Desktop/Start/AngryBirdies/AngryBirdies/obj/iPhoneSimulator/Debug/AngryBirdies.exe.mdb
-/Users/aashish.issar/Desktop/back uo/AngryBirdies/AngryBirdies/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
-/Users/aashish.issar/Desktop/back uo/AngryBirdies/AngryBirdies/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
-/Users/aashish.issar/Desktop/back uo/AngryBirdies/AngryBirdies/obj/iPhoneSimulator/Debug/optimized/
-/Users/aashish.issar/Desktop/back uo/AngryBirdies/AngryBirdies/bin/iPhoneSimulator/Debug/AngryBirdies.exe.mdb
-/Users/aashish.issar/Desktop/back uo/AngryBirdies/AngryBirdies/bin/iPhoneSimulator/Debug/AngryBirdies.exe
-/Users/aashish.issar/Desktop/back uo/AngryBirdies/AngryBirdies/obj/iPhoneSimulator/Debug/AngryBirdies.exe
-/Users/aashish.issar/Desktop/back uo/AngryBirdies/AngryBirdies/obj/iPhoneSimulator/Debug/AngryBirdies.exe.mdb
+/Users/aashish.issar/Desktop/backUp/AngryBirdies/AngryBirdies/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/aashish.issar/Desktop/backUp/AngryBirdies/AngryBirdies/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/aashish.issar/Desktop/backUp/AngryBirdies/AngryBirdies/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
+/Users/aashish.issar/Desktop/backUp/AngryBirdies/AngryBirdies/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/aashish.issar/Desktop/backUp/AngryBirdies/AngryBirdies/obj/iPhoneSimulator/Debug/optimized/
+/Users/aashish.issar/Desktop/backUp/AngryBirdies/AngryBirdies/bin/iPhoneSimulator/Debug/AngryBirdies.exe.mdb
+/Users/aashish.issar/Desktop/backUp/AngryBirdies/AngryBirdies/bin/iPhoneSimulator/Debug/AngryBirdies.exe
+/Users/aashish.issar/Desktop/backUp/AngryBirdies/AngryBirdies/obj/iPhoneSimulator/Debug/AngryBirdies.exe
+/Users/aashish.issar/Desktop/backUp/AngryBirdies/AngryBirdies/obj/iPhoneSimulator/Debug/AngryBirdies.exe.mdb
+/Users/aashish.issar/Desktop/backUp/AngryBirdies/AngryBirdies/bin/iPhoneSimulator/Debug/System.Net.Http.Extensions.dll
+/Users/aashish.issar/Desktop/backUp/AngryBirdies/AngryBirdies/bin/iPhoneSimulator/Debug/System.Net.Http.Primitives.dll
+/Users/aashish.issar/Desktop/backUp/AngryBirdies/AngryBirdies/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
